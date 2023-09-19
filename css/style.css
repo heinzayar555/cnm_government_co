@@ -1,0 +1,234 @@
+.d-grid button.btn-info:hover {
+    background-color: #0B2239;
+    transition: 0.3s ease-in-out;
+}
+
+.nav {
+    background-color: #FFB800;
+    color: #0B2239;
+}
+
+.nav-item .nav-link {
+    color: #596475;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover {
+    color: #EB4438;
+    transition: color .3s linear;
+}
+
+.hero {
+    background-color: #F3F8FB;
+    border-bottom: 8px solid #EB4438;
+}
+
+.gallery h3 {
+    border-left: 5px solid #EB4438;
+}
+
+.home-icon {
+    background-image: url("../images/pngwing\ 1.png");
+    height: 30%;
+}
+
+.home-icon .card {
+    background-color: #FEF9EF;
+}
+
+.home-icon h4 {
+    font-size: 27px;
+    line-height: 41px;
+}
+
+.home-icon p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-index {
+    background: url('../images/home-blur.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-index ul {
+    margin: 30px;
+    padding: 0;
+}
+
+.banner-index ul li::marker {
+    color: #EB4438;
+    font-size: 16px;
+}
+
+.banner-index h2 {
+    color: #FFF;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.84px;
+    text-transform: uppercase;
+}
+
+.banner-index p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.banner-index button {
+    background-color: #17C3B2;
+    color: white;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.banner-index button:hover {
+    background-color: #17C3B2;
+}
+
+/* ================================================= */
+.inform {
+    background-color: #FEF9EF;
+}
+
+.inform h3 {
+    color: #EB4438;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.text-hover-effect {
+    color: #EB4438;
+    transition: 0.3s ease-in-out;
+    opacity: 0.3;
+}
+
+.text-hover-effect h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.card:hover .text-hover-effect {
+    opacity: 1;
+}
+
+/* ============================================ */
+.card-box:hover {
+    background-color: #EB4438;
+    transition: 0.3s ease-in-out;
+}
+
+.card-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card-box h4 {
+    color: #eb4438;
+    font-weight: 600;
+}
+
+.card-box:hover h3,
+.card-box:hover h4,
+.card-box:hover p,
+.card-box:hover a {
+    color: white !important;
+}
+
+.svg-fill>svg {
+    fill: #EB4438;
+}
+
+.card-box:hover .svg-fill>svg {
+    fill: #fff;
+}
+
+/* .hero-text h3{
+    color: #0B2239;
+font-family: 'Roboto';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+footer {
+    background-color: #0B2239;
+}
+
+p {
+
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer1 p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.footer1 ul li {
+    list-style: none;
+}
+
+/* service===================================== */
+.border-shadow {
+    border-radius: 0px 10px 10px 0px;
+    border-left: 5px solid #EB4438 !important;
+    background: #FBFBFB;
+}
+
+.border-shadow h3{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 41px; 
+}
+
+.border-shadow h4{
+    color: #EB4438;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.border-shadow p{
+    color: #596475;
+text-align: justify;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+
+.service-border {
+    border-left: #EB4438 solid 10px;
+    color: #0B2239;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+}
+
